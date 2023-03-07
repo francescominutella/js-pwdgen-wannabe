@@ -20,7 +20,7 @@ console.log(keywords)
 
 //4. displaing output
 
-document.getElementById("keywords").innerHTML = keywords;
+document.getElementById("key_words").innerHTML = keywords;
 
 
 
