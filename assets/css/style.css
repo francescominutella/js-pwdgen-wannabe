@@ -13,6 +13,25 @@
     overflow-y: auto;
 }
 
+.enter_space
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.enter_space::before,
+.enter_space::after
+{
+    content: '';
+    display: block;
+    width: 8rem;
+    height: 3px;
+    background-color: yellowgreen;
+}
+
+
 .debug [class^=col] {
     border: 1px solid white;
 }
