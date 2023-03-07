@@ -18,6 +18,9 @@ console.log(firstName, surName, favoriteColor)
 const keywords = firstName + surName + favoriteColor + "23";
 console.log(keywords)
 
-
 //4. displaing output
+
+document.getElementById("keywords").innerHTML = keywords;
+
+
 
